@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "Luaft"
+  },
+  "name": "webtoon-epub",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "canvas": "^3.2.0",
+    "cheerio": "^1.1.2",
+    "epub-gen": "^0.1.0",
+    "sass": "^1.92.1"
+  },
+  "devDependencies": {
+    "@types/epub-gen": "^0.1.2",
+    "@types/node": "^20.12.7",
+    "i": "^0.3.7",
+    "npm": "^11.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
